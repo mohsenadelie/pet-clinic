@@ -30,5 +30,5 @@ build/
 ### VS Code ###
 .vscode/
 .gitignore
-src/main/resources/static/
-src/main/resources/templates/
+pet-clinic-web/src/main/resources/static/
+pet-clinic-web/src/main/resources/templates/

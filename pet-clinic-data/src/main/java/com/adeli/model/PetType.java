@@ -1,4 +1,4 @@
-package com.adeli.petclinic.model;
+package com.adeli.model;
 
 public class PetType {
     private String name;
