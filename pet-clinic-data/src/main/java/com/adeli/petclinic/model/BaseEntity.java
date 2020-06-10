@@ -1,4 +1,4 @@
-package com.adeli.model;
+package com.adeli.petclinic.model;
 
 import java.io.Serializable;
 

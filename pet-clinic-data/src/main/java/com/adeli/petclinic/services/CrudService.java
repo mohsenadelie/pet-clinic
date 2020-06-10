@@ -1,4 +1,4 @@
-package com.adeli.services;
+package com.adeli.petclinic.services;
 
 import java.util.Set;
 

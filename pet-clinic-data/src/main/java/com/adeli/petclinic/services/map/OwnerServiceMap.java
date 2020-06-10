@@ -1,10 +1,12 @@
-package com.adeli.services.map;
+package com.adeli.petclinic.services.map;
 
-import com.adeli.model.Owner;
-import com.adeli.services.OwnerService;
+import com.adeli.petclinic.model.Owner;
+import com.adeli.petclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override

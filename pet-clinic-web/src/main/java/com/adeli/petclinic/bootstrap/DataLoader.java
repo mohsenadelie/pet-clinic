@@ -1,11 +1,9 @@
 package com.adeli.petclinic.bootstrap;
 
-import com.adeli.model.Owner;
-import com.adeli.model.Vet;
-import com.adeli.services.OwnerService;
-import com.adeli.services.VetService;
-import com.adeli.services.map.OwnerServiceMap;
-import com.adeli.services.map.VetServiceMap;
+import com.adeli.petclinic.model.Owner;
+import com.adeli.petclinic.model.Vet;
+import com.adeli.petclinic.services.OwnerService;
+import com.adeli.petclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,10 +13,9 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
-
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
 
     @Override

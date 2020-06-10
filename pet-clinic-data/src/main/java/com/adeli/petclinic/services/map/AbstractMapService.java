@@ -1,4 +1,4 @@
-package com.adeli.services.map;
+package com.adeli.petclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

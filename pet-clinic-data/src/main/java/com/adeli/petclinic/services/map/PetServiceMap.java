@@ -1,10 +1,12 @@
-package com.adeli.services.map;
+package com.adeli.petclinic.services.map;
 
-import com.adeli.model.Pet;
-import com.adeli.services.PetService;
+import com.adeli.petclinic.model.Pet;
+import com.adeli.petclinic.services.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
